@@ -43,6 +43,10 @@ p {
 a {
     text-decoration: none;
     color: white;
+    flex: 0.5;
+    padding: 25px;
+    margin: 5px;
+    border-top: 5px
 }
 
 
