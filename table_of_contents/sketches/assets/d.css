@@ -16,10 +16,11 @@ body {
   }
   
   h1 {
-    font-size: 6vw;
+    font-size: 9vw;
     font-weight:900;
     margin: 0;
     color: rgb(13, 13, 255);
+    line-height: 1em;
     
   }
   
