@@ -3,7 +3,6 @@ html{
 }
 
 body {
-    color: rgba(38, 10, 116, 0.511);
     font-family: 'Outfit', sans-serif;
     font-family: 'Space Mono', monospace;
   }
@@ -31,6 +30,7 @@ body {
     font-weight: 600;
     font-size: 12vw;
     text-align: flex-end;
+    color:  rgb(13, 13, 255);
   }
   
 
@@ -43,6 +43,6 @@ body {
   
   a:hover {
     border-bottom: 1px solid;
-    color: brown;
+    color:  rgb(13, 13, 255);
     text-decoration:line-through;
   }
