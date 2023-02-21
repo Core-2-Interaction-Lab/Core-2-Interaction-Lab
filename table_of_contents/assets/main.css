@@ -1,0 +1,48 @@
+html{
+  background-color:rgb(255, 255, 255);
+}
+
+body {
+    color: rgba(38, 10, 116, 0.511);
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Space Mono', monospace;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1vw solid rgb(1, 1, 5);
+    padding: 2em;
+  }
+  
+  .links {
+    display: flex;
+    align-items:left;
+    justify-content:left;
+    flex-direction: column;
+    font-size: 5vw;
+    font-weight: 300px;
+    line-height: 2;
+  }
+  
+  h1 {
+    font-weight: 600;
+    font-size: 12vw;
+    text-align: flex-end;
+  }
+  
+
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-bottom: 1px solid;
+    margin-bottom: 300px;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;
+    color: brown;
+    text-decoration:line-through;
+  }

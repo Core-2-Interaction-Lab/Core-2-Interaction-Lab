@@ -1,0 +1,71 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size: 5vw;
+    font-weight: 400;
+    color: rgb(13, 13, 255);
+    
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2em;
+    border: 1vw solid rgb(13, 13, 255);
+    background-color: rgb(251, 227, 242);
+  }
+  
+  h1 {
+    font-size: 10vw;
+    font-weight:900;
+    margin: 0;
+    color: rgb(13, 13, 255);
+    
+  }
+  
+  .entries {
+    margin-bottom: 60px;
+  }
+  
+  .footnotes {
+    margin-bottom: 60px;
+  }
+  
+  .heading {
+    margin-bottom: 60px;
+  }
+  
+  .chapter {
+    letter-spacing: 40px;
+    font-weight: 900;
+    color: rgb(71, 59, 240);
+  }
+  
+  .notes {
+    letter-spacing: 40px;
+    font-weight: 900;
+  }
+  
+  .bibliography {
+    letter-spacing: 40px;
+    font-weight: 900;
+  }
+  
+  .index {
+    letter-spacing: 40px;
+    font-weight: 900;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .page {
+    margin-top: 2em;
+  }
+  
+  
+  span {
+    display:block;
+  }
