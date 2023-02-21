@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+html {
+    display: block;
+}
+
+{
+    box-sizing: inherit;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: rgb(74, 83, 83);
+    color:blanchedalmond;
+    padding: 1em;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 10px;
+    padding: 2em;
+}
+
+section {
+    margin-top: 120px;
+}
