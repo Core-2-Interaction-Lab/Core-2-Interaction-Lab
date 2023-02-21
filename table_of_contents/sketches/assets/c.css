@@ -1,7 +1,7 @@
 body {
   font-family: 'Outfit', sans-serif;
   font-family: 'Space Mono', monospace;
-  font-size: 5vw;
+  font-size: 3vw;
   font-weight: 400;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 3vw;
   font-weight:900;
   margin: 0;
   
