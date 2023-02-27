@@ -45,8 +45,19 @@ a {
     color: white;
     flex: 0.5;
     padding: 25px;
-    margin: 5px;
+    margin: 5;
     border-top: 5px
+    
+}
+
+a:hover{
+  color: yellow
+
+}
+
+.git {
+  display: flex;
+  justify-content: flex-end;
 }
 
 

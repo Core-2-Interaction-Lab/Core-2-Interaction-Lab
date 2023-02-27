@@ -28,10 +28,14 @@ body {
     cursor: pointer;
     border: none;
     padding: 25px 35px;
-    background-color: rgb(220, 32, 0)
+    background-color: rgb(220, 64, 0)
   }
 
   button {border-radius: 50%;}
+
+  button:hover{
+    color: rgb(255, 245, 0);
+  }
 
   h1 {
     font-size: medium;
@@ -68,6 +72,7 @@ body {
   .vl {
     border-left: 6px solid rgb(255, 245, 0);
     height: 5150px;
+    transform: translateX(30%);
   }
 
 /*text*/

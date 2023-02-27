@@ -1,0 +1,168 @@
+/*heading*/
+
+html {
+    background:#1F211F;
+    color: rgb(255, 255, 255);
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family:rockwell;
+    
+  }
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em;
+  }
+
+  h1 {
+    font-size: medium;
+    transform: translateY(250%);
+  }
+
+  
+  #top {
+    height: 40px;
+    padding: 5px,5px;
+    text-decoration:none;
+    margin-block-start: 200px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  #bottom {
+    height: 40px;
+    padding: 5px, 5px;
+    text-decoration:none;
+    margin-block-start: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+  }
+
+  a{
+    color: #fcfcfc;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .vl {
+    border-left: 6px solid rgb(255, 245, 0);
+    height: 8050px;
+    transform: translateX(30%);
+  }
+
+
+  /*button*/
+  button{
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #fcfcfc;
+    cursor: pointer;
+    border: none;
+    padding: 25px 35px;
+    background-color: rgb(0, 136, 215)}
+
+
+  button {border-radius: 50%;}
+
+  button:hover{
+    color: rgb(255, 245, 0);
+  }
+
+/*text*/
+.p1{
+    float: right;
+    width: 50%;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    font-size: 20px;
+    align-items:flex-end;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+
+.message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    position: relative;
+}
+
+.message2{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2em;
+  
+  }
+
+.message3{
+  justify-content:flex-end;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.end{
+  float: left;
+  padding: 10px;
+  height: auto;
+  display: flex;
+  font-size: 20px;
+  opacity: .3;
+  align-items: flex-end;
+  flex-direction: column;
+  offset-position:inherit;
+  
+}
+
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(31,33,31);
+  }
+  
+  ::-webkit-scrollbar-track { 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(31,33,31); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fcfcfc; 
+  }
+
+  /*mobile*/
+  @media only screen and (max-device-width: 1366px) {
+
+
+    .example {
+    
+    
+    background-attachment: scroll;
+    
+    
+    }
+    
+  }    

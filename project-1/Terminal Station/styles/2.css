@@ -33,6 +33,10 @@ body {
 
   button {border-radius: 50%;}
 
+  button:hover{
+    color: rgb(255, 245, 0);
+  }
+
   h1 {
     font-size: medium;
     transform: translateY(250%);
@@ -68,6 +72,7 @@ body {
   .vl {
     border-left: 6px solid rgb(255, 245, 0);
     height: 3400px;
+    transform: translateX(30%);
   }
 
 /*text*/

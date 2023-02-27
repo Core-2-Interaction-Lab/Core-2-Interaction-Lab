@@ -1,31 +1,41 @@
 /*heading*/
 
 html {
-    background-color:rgb(31,33,31);
-    color: rgb(255, 255, 255);
-  }
+  background-color: rgb(31, 33, 31);
+  color: rgb(255, 255, 255);
+}
 
 body {
-    font-family:rockwell;
-    font-size:10 px;
-    
-  }
+  font-family: rockwell;
+  font-size: 10 px;
+
+}
 
 .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 2em;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2em;
+}
+
+a{
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+a:hover{
+  transform: scale(1.5); 
+  color: yellow
+}
 
 h1 {
-    font-size: 15vw;
-    font-weight: 700;
-    line-height: .55;
-    letter-spacing: 1.75px;
-    margin-top: 10%;
-  }
+  font-size: 15vw;
+  font-weight: 700;
+  line-height: .55;
+  letter-spacing: 1.75px;
+  margin-top: 10%;
+}
 
 h2 {
   font-size: 1.4vw;
@@ -40,7 +50,7 @@ h2 {
   line-height: 10px;
   font-size: 1.4vw;
   margin: 1em;
-  position:relative;
+  position: relative;
   top: auto;
   left: 10px;
   transform: translateX(-250%);
@@ -56,21 +66,21 @@ h2 {
   font-size: small;
 }
 
-.p1{
+.p1 {
   margin: 0;
   position: absolute;
   top: auto;
   transform: translateX(-100%);
 }
 
-.p2{
+.p2 {
   margin: 0;
   position: absolute;
   top: auto;
   transform: translateY(2950%);
 }
 
-.narration{
+.narration {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,26 +92,26 @@ h2 {
 
 ::-webkit-scrollbar {
   width: 10px;
-  background-color: rgb(31,33,31);
+  background-color: rgb(31, 33, 31);
 }
 
-::-webkit-scrollbar-track { 
+::-webkit-scrollbar-track {
   border-radius: 10px;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: rgb(31,33,31); 
+  background: rgb(31, 33, 31);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #fcfcfc; 
+  background: #fcfcfc;
 }
 
 /*button*/
 
 button {
-  text-decoration:none;
+  text-decoration: none;
   margin-block-start: 200px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
@@ -111,19 +121,24 @@ button {
   padding: 25px 35px;
 }
 
-button {border-radius: 50%;}
-
-.button1{
-  background-color: rgb(220, 32, 0)
-  
+button {
+  border-radius: 50%;
 }
-.button2{
+
+.button1 {
+  background-color: rgb(220, 64, 0)
+}
+
+.button2 {
   background-color: rgb(212, 19, 21)
 }
-.button3{
+
+.button3 {
   background-color: rgb(0, 136, 215)
 }
-.button, .tooltiptext {
+
+.button,
+.tooltiptext {
   position: absolute;
   z-index: 1;
   color: #fff;
@@ -131,11 +146,17 @@ button {border-radius: 50%;}
   transform: translateY(570%);
 }
 
+button:hover{
+  color: rgb(255, 245, 0);
+}
+
 .train1,
 .train2,
-.train3{
+.train3 {
   background-color: rgb(255, 245, 0);
 }
 
-
-
+#section2 {
+  position: relative;
+  opacity: 0;
+}
