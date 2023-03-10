@@ -1,0 +1,57 @@
+/* put your CSS here */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+	margin: 0;
+}
+
+.canvas {
+	max-width: 900px;
+	height: 550px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+
+.white-sphere .circle{
+	width: 100px;
+	height: 100px;
+	background: rgb(108, 108, 108);
+	border-radius: 50%;
+	position: relative;
+	top: -390px;
+	left: 150px;
+}
+
+.lamp .lamp-cylinder {
+	width: 60px;
+	height: 200px;
+	background: rgb(110, 110, 110);
+	position: relative;
+	top: -590px;
+	left: 350px;
+}
+
+.lamp .lamp-circle1{
+	width: 60px;
+	height: 40px;
+	background: rgb(108, 108, 108);
+	border-radius: 50%;
+	position: relative;
+	top: -610px;
+	left: 350px;
+}
+
+.lamp .lamp-circle2{
+	width: 170px;
+	height: 140px;
+	background: rgb(108, 108, 108);
+	border-radius: 50%;
+	position: relative;
+	top: -870px;
+	left: 300px;
+}
