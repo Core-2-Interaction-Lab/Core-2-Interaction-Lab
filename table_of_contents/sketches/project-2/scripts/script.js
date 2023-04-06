@@ -1,29 +1,29 @@
 <script>
 function displayRandomImages() 
-{
-   //array of images with image location, height, and width
+{  
+  //array of images with image location, height, and width
    var imageArray = [
    { 
      //address URL of the image
      src: "https://wi.wallpapertip.com/wsimgs/15-155208_desktop-puppy-wallpaper-hd.jpg",
      //size for the image to be display on webpage
-     width: "1000",
+     width: "1600",  
      height: "1000"
    }, 
    {
      src: "https://wi.wallpapertip.com/wsimgs/156-1564365_golden-retriever-puppy-desktop-wallpaper-desktop-wallpaper-puppy.jpg",
-     width: "320",
-     height: "195"
+     width: "1600",  
+     height: "1000"
    }, 
    {
      src: "https://wi.wallpapertip.com/wsimgs/156-1564140_free-puppy-wallpapers-for-computer-wallpaper-cave-cute.jpg",
-     width: "320",
-     height: "195"
+     width: "1600",  
+     height: "1000"
    },
    {
      src: "https://wi.wallpapertip.com/wsimgs/156-1566650_cute-puppies-desktop-wallpaper-cute-puppies.jpg",
-     width: "350",
-     height: "250"
+     width: "1600",  
+     height: "1000"
     } ];
     
     //find the length of the array of images
