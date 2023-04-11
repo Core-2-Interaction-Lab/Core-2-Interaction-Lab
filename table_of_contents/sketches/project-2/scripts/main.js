@@ -1,30 +1,60 @@
-<script>
 function displayRandomImages() 
 {  
   //array of images with image location, height, and width
    var imageArray = [
    { 
      //address URL of the image
-     src: "https://wi.wallpapertip.com/wsimgs/15-155208_desktop-puppy-wallpaper-hd.jpg",
+     src: "https://live.staticflickr.com/65535/52808789342_231cce1f18_b.jpg",
      //size for the image to be display on webpage
-     width: "1600",  
-     height: "1000"
+     width: "600",  
+     height: "800"
    }, 
    {
-     src: "https://wi.wallpapertip.com/wsimgs/156-1564365_golden-retriever-puppy-desktop-wallpaper-desktop-wallpaper-puppy.jpg",
-     width: "1600",  
-     height: "1000"
+     src: "https://live.staticflickr.com/65535/52809553039_a48711a0d1_b.jpg",
+     width: "600",  
+     height: "800"
    }, 
    {
-     src: "https://wi.wallpapertip.com/wsimgs/156-1564140_free-puppy-wallpapers-for-computer-wallpaper-cave-cute.jpg",
-     width: "1600",  
-     height: "1000"
+     src: "https://live.staticflickr.com/65535/52808789372_52c0f8f9b4_b.jpg",
+     width: "600",  
+     height: "800"
    },
    {
-     src: "https://wi.wallpapertip.com/wsimgs/156-1566650_cute-puppies-desktop-wallpaper-cute-puppies.jpg",
-     width: "1600",  
-     height: "1000"
-    } ];
+     src: "https://live.staticflickr.com/65535/52809758040_beec525c7e_b.jpg",
+     width: "944",  
+     height: "708"
+    },
+    {
+      src: "https://live.staticflickr.com/65535/52809553184_b926445ae6_b.jpg",
+      width: "600",  
+      height: "800"
+    },
+    {
+      src: "https://live.staticflickr.com/65535/52808789432_93e8e9f84c_b.jpg",
+      width: "600",  
+      height: "800"
+    },
+    {
+      src: "https://live.staticflickr.com/65535/52809802028_2032c5fd2b_b.jpg",
+      width: "600",  
+      height: "800"
+    },
+    {
+      src: "https://live.staticflickr.com/65535/52808789457_91a33140c5_b.jpg",
+      width: "600",  
+      height: "800"
+    },
+    {
+      src: "https://live.staticflickr.com/65535/52808789487_ee790854d8_b.jpg",
+      width: "944",  
+      height: "708"
+    },
+    {
+      src: "https://live.staticflickr.com/65535/52809802103_2268e18463_b.jpg",
+      width: "944",  
+      height: "708"
+     },
+  ];
     
     //find the length of the array of images
     var arrayLength = imageArray.length;
@@ -55,5 +85,10 @@ function displayRandomImages()
   }
   // display the new random image  
   document.body.appendChild(newImage);
+  
+  
 }
-</script>
+
+
+
+

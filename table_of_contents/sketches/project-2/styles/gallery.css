@@ -1,0 +1,123 @@
+html{
+    background-color: rgb(69, 97, 117);
+}
+
+body {
+    margin-top: 30px;
+    color:rgb(219,228,185) ;
+    font-family: "degular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+p {
+    font-size: 2vw;
+}
+
+h1{
+    font-size: 75px;
+    color:rgb(219,228,185);
+    font-family: eckmannpsych-large, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    color:rgb(219,228,185);
+    font-family: "degular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.button{
+    color: rgb(219,228,185);
+    text-decoration: none;
+}
+
+.button:hover{
+    color: rgb(65,154,148);
+}
+
+button {
+    color:rgb(65,154,148);
+}
+
+#top {
+    height: 40px;
+    padding: 5px,5px;
+    text-decoration:none;
+    margin-block-start: 200px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: aliceblue;
+  }
+  
+  #bottom {
+    height: 40px;
+    padding: 5px, 5px;
+    text-decoration:none;
+    margin-block-start: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+  }
+
+summary {
+	cursor: pointer;
+}
+
+@media (max-width: 600px) {
+	ul {
+		grid-template-columns: 1fr;
+	}
+}
+
+/*codes to use*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: ;
+
+}
+
+.container{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 8%;
+}
+
+.gallery{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+	grid-gap: 15px;
+}
+
+.gallery img{
+	width: 100%;
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(31,33,31);
+  }
+  
+  ::-webkit-scrollbar-track { 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(31,33,31); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(219,228,185);
+  }
