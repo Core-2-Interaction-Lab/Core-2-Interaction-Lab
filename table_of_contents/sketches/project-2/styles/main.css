@@ -4,6 +4,7 @@ html{
 
 body {
     margin-top: 30px;
+    padding: auto;
     color:rgb(219,228,185) ;
     font-family: "degular", sans-serif;
     font-weight: 400;
@@ -69,4 +70,9 @@ button:hover {
   
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(219,228,185);
+  }
+
+  .center-image {
+    display: block;
+    margin: 0 auto;
   }

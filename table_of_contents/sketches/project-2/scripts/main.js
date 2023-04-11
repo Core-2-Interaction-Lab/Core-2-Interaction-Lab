@@ -52,7 +52,8 @@ function displayRandomImages()
     {
       src: "https://live.staticflickr.com/65535/52809802103_2268e18463_b.jpg",
       width: "944",  
-      height: "708"
+      height: "708",
+      center: "200"
     },
     {
       src: "https://live.staticflickr.com/65535/52809351251_057848bd7d_b.jpg",
@@ -79,7 +80,6 @@ function displayRandomImages()
       width: "600",  
       height: "800"
      },
-     
   ];
     
     //find the length of the array of images
@@ -90,6 +90,7 @@ function displayRandomImages()
         newArray[i].src = imageArray[i].src;
         newArray[i].width = imageArray[i].width;
         newArray[i].height = imageArray[i].height;
+        newArray[i].className = "center-image";
     }
    
   // create random image number
@@ -111,8 +112,7 @@ function displayRandomImages()
   }
   // display the new random image  
   document.body.appendChild(newImage);
-  
-  
+
 }
 
 
