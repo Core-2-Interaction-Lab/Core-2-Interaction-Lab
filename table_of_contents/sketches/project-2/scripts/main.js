@@ -53,7 +53,33 @@ function displayRandomImages()
       src: "https://live.staticflickr.com/65535/52809802103_2268e18463_b.jpg",
       width: "944",  
       height: "708"
+    },
+    {
+      src: "https://live.staticflickr.com/65535/52809351251_057848bd7d_b.jpg",
+      width: "600",  
+      height: "800"
+    },
+    {
+      src: "https://live.staticflickr.com/65535/52808789552_3f11b448f8_b.jpg",
+      width: "600",  
+      height: "800"
+    },
+    {
+      src: "https://live.staticflickr.com/65535/52809553369_90d51d962e_c.jpg",
+      width: "600",  
+      height: "800"
+    },
+    {
+      src: "https://live.staticflickr.com/65535/52809553394_d7ac8c7093_c.jpg",
+      width: "600",  
+      height: "800"
+    },
+    {
+      src: "https://live.staticflickr.com/65535/52809351111_59170ffe73_c.jpg",
+      width: "600",  
+      height: "800"
      },
+     
   ];
     
     //find the length of the array of images
