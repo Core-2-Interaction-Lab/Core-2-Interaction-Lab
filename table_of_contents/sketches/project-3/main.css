@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background:linear-gradient(135deg, #cfc6f2, #ffffff);
+  color: #000000;
+  font-weight: 700;
+}
+
+.card{
+  width: 100%;
+  max-width: 1670px;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 600px 35px;
+  text-align: center;
+}
+
+.weather-icon{
+  width: 170px;
+  margin-top: 30px;
+}
+
+.weather h1{
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.col{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img{
+  width: 40px;
+  margin-left: 10px;
+}
+
+.humidity, .wind{
+  font-size: 28px;
+  margin-top: -6px;
+}
+
+
+#container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+  
+.circle {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: rgb(124, 127, 255);
+}
+
+.textcircle1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #BFBDFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  

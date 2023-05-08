@@ -20,6 +20,7 @@ h1{
     font-family: eckmannpsych-large, sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-top: -25px;
 }
 
 h2{
@@ -28,6 +29,25 @@ h2{
     font-weight: 400;
     font-style: normal;
 }
+
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    font-size: 24px;
+    background-color:rgb(65,154,148);  ;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 100%;
+  }
+  
+.top-btn:hover {
+    background-color:  rgb(219,228,185);
+  }
 
 .button{
     color: rgb(219,228,185);

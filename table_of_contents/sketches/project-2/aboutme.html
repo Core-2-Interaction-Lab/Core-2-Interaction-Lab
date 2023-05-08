@@ -28,5 +28,26 @@
     </div>
     <img src="assets/AboutME/Desktop - 31.png" width="100%">
     <img src="assets/AboutME/Sketching Progres.PNG" width="100%">
+    <center><button class="top-btn">&#8593;</button></center>
+
+    <script>
+       // Get the button element
+   var btn = document.querySelector(".top-btn");
+   
+   // When the user scrolls down 20px from the top of the document, show the button
+   window.onscroll = function() {
+     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+       btn.style.display = "block";
+     } else {
+       btn.style.display = "none";
+     }
+   };
+   
+   // When the user clicks on the button, scroll to the top of the document
+   btn.onclick = function() {
+     document.body.scrollTop = 0;
+     document.documentElement.scrollTop = 0;
+   };
+    </script>
 </body>
 </html>

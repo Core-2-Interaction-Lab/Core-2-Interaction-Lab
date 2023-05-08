@@ -20,6 +20,7 @@ h1{
     font-family: eckmannpsych-large, sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-top: -25px;
 }
 
 h2{
@@ -43,26 +44,24 @@ button {
     color:rgb(65,154,148);
 }
 
-#top {
-    height: 40px;
-    padding: 5px,5px;
-    text-decoration:none;
-    margin-block-start: 200px;
-    font-size: 25px;
-    cursor: pointer;
-    border: none;
-    color: aliceblue;
-  }
-  
-  #bottom {
-    height: 40px;
-    padding: 5px, 5px;
-    text-decoration:none;
-    margin-block-start: 50px;
-    font-size: 25px;
-    cursor: pointer;
-    border: none;
-  }
+.top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  font-size: 24px;
+  background-color:rgb(65,154,148);  ;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 100%;
+}
+
+.top-btn:hover {
+  background-color:  rgb(219,228,185);
+}
 
 summary {
 	cursor: pointer;
@@ -79,7 +78,7 @@ summary {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: ;
+	font-family: "degular", sans-serif;
 
 }
 
