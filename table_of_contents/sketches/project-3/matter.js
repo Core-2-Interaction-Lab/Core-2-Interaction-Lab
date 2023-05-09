@@ -7,7 +7,7 @@ const createParticles = temperature => {
     });
   
     // Create circles as Matter.js bodies
-    const circles = [1000];
+    const circles = [9000];
     const numCircles = temperature * 3;
     const containerWidth = document.getElementById('container').offsetWidth;
     const containerHeight = document.getElementById('container').offsetHeight;
