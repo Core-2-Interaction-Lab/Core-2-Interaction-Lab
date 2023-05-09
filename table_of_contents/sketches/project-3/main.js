@@ -30,6 +30,38 @@ const creatParticles = temperature => {
     numCircles = 1000;
   }
   
+  if (temperature > 80) {
+    numCircles = 1000;
+  }
+  
+  if (temperature > 70) {
+    numCircles = 1000;
+  }
+  
+  if (temperature > 60) {
+    numCircles = 1000;
+  }
+
+  if (temperature > 50) {
+    numCircles = 1000;
+  }
+
+  if (temperature < 40) {
+    numCircles = 900;
+  }
+
+  if (temperature < 30) {
+    numCircles = 700;
+  }
+
+  if (temperature < 20) {
+    numCircles = 400;
+  }
+
+  if (temperature < 10) {
+    numCircles = 200;
+  }
+  
   // Create and position the circles
   for (var i = 0; i < numCircles; i++) {
     // Create a new circle element
