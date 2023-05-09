@@ -24,7 +24,7 @@ const creatParticles = temperature => {
   var container = document.getElementById('container');
   
   // Calculate the number of circles to create
-  var numCircles = temperature * 3;
+  var numCircles = temperature * 10;
 
   if (temperature > 90) {
     numCircles = 1000;
