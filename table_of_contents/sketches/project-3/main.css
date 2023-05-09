@@ -205,4 +205,16 @@ p {
   max-width: 100%;
   padding: 10%;
   display: flex;
+  animation-name: fade;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.25;
+  }
 }
