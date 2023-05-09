@@ -206,7 +206,7 @@ p {
   padding: 10%;
   display: flex;
   animation-name: fade;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-fill-mode: forwards;
 }
 
@@ -231,6 +231,6 @@ p {
   padding: 10%;
   display: flex;
   animation-name: fade;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-fill-mode: forwards;
 }
