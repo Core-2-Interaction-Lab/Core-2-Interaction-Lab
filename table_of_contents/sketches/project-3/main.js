@@ -16,14 +16,12 @@ const weatherIcon=document.querySelector("weather-icon");
     })
 
       const temperature = Math.round(data.current_weather.temperature);
-      const alder_pollen = Math.round(data.hourly.alder_pollen);
       
       document.querySelector(".city").innerHTML = "New York";
       document.querySelector(".temp").innerHTML = temperature + "°F";
-      document.querySelector(".wind").innerHTML = data.current_weather.windspeed + "km/h";
+      document.querySelector(".pollen").innerHTML = data.hourly.us_aqi +"μg/m³";
 
       creatParticles(temperature)
-      
   })
 
 const creatParticles = temperature => {
