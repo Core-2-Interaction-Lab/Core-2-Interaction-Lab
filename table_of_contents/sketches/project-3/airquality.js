@@ -3,4 +3,6 @@ const apiUrl="https://air-quality-api.open-meteo.com/v1/air-quality?latitude=52.
 fetch(apiUrl)
 .then(response => response.json())
 .then(data => {
-  console.log(data); }
+  console.log(data); 
+
+})
