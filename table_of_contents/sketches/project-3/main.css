@@ -72,12 +72,6 @@ h2{
   text-align: center;
 }
 
-.weather-icon{
-  width: 170px;
-  margin-top: 30px;
-  
-}
-
 .weather h1{
   font-size: 45px;
   font-weight: 500;
@@ -93,23 +87,10 @@ h2{
   margin-top: 50px;
 }
 
-.col{
-  display: flex;
-  align-items: center;
-  text-align: left;
-}
-
-.col img{
-  display: flex;
-  align-items: center;
-  margin-left: 100%;
-}
-
 .humidity, .wind{
   font-size: 28px;
   margin-top: -6px;
 }
-
 
 #container {
   position: relative;
