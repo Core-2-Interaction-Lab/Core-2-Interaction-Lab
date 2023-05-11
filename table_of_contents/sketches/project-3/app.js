@@ -1,7 +1,3 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
-
 /* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
 /*
 particlesJS.load('particles-js', 'particles.json', function() {
@@ -16,7 +12,7 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 400,
         "density": {
           "enable": true,
           "value_area": 800
@@ -59,13 +55,6 @@ particlesJS('particles-js',
           "size_min": 0.1,
           "sync": false
         }
-      },
-      "line_linked": {
-        "enable": true,
-        "distance": 150,
-        "color": "#ffffff",
-        "opacity": 0.4,
-        "width": 1
       },
       "move": {
         "enable": true,
