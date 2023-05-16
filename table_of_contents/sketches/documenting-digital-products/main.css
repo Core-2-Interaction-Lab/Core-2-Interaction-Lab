@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(159, 214, 159);
+    font-family: Roboto Condensed;
+    margin: auto;
+    padding: 20px;
+}
+
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.content{
+
+}
+
+body{
+    color: aliceblue;
+}
+
