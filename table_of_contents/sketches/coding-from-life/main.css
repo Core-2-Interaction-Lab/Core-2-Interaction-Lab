@@ -15,7 +15,7 @@ a {
 	text-align: center;
 }
 .canvas {
-	max-width: 100%;
+	max-width: 750px;
 	height: 480px;
 	margin: 200px auto;
 	position: relative;
