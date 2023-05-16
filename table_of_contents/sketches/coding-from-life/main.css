@@ -11,7 +11,7 @@ a {
 	margin: 10em;
 	position: relative;
 	text-decoration: none;
-	color: white;
+	color: rgb(255, 255, 255);
 	text-align: center;
 }
 .canvas {
@@ -20,7 +20,7 @@ a {
 	margin: 200px auto;
 	position: relative;
 
-	background-color: #278cc6;
+	background-color: #ffffff;
 	animation: colorChange 2s infinite;
 }
 
