@@ -19,7 +19,7 @@ const weatherIcon=document.querySelector("weather-icon");
       
       document.querySelector(".city").innerHTML = "New York";
       document.querySelector(".temp").innerHTML = temperature + "°F";
-      document.querySelector(".pollen").innerHTML = data.hourly.us_aqi +"μg/m³";
+      document.querySelector(".windspeed").innerHTML = data.current_weather.windspeed+"mph";
 
       creatParticles(temperature)
   })
